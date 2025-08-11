@@ -316,7 +316,19 @@ fn main() -> Result<(), Box<dyn Error>> {
     // }
     // ? x is out of scope
     // println!("r: {}", r);
+    // ! applying lifetimes annotation
+    fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
+        if x.len() > y.len() {
+            x
+        } else {
+            y
+        }
+    }
 
+    let short = String::from("shorter string");
+    let long = String::from("longer longer string");
+    let result = longest(&short, &long);
+    println!("The longest string is: {}", result);
     Ok(())
 }
 // ! functions
