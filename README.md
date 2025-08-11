@@ -65,13 +65,9 @@ Below is the **rough path** I’m following to learn Rust effectively:
 
 ```plaintext
 .
-├── 00_basics/           # Getting started with Rust
-├── 01_ownership/        # Ownership, borrowing, and lifetimes
-├── 02_structs_enums/    # Structs, enums, and pattern matching
-├── 03_collections/      # Vectors, strings, and hashmaps
-├── 04_error_handling/   # Option, Result, and error management
-├── 05_modules/          # Modules and crate usage
-├── 06_async/            # Async programming and concurrency
+├── variables/           # Getting started with Rust
+├── hello-cargo/         # small project
+├── crate_learn/         # understanding bin/lib crates
 ├── projects/            # Mini-projects and apps
 └── README.md
 ```
