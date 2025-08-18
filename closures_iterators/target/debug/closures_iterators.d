@@ -1,0 +1,1 @@
+/home/youtcode/projects/rust-apps/closures_iterators/target/debug/closures_iterators: /home/youtcode/projects/rust-apps/closures_iterators/src/lib.rs /home/youtcode/projects/rust-apps/closures_iterators/src/main.rs

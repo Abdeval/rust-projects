@@ -329,6 +329,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     let long = String::from("longer longer string");
     let result = longest(&short, &long);
     println!("The longest string is: {}", result);
+    println!("{}", greeting(&String::from("abdou")));
     Ok(())
 }
 // ! functions
@@ -382,4 +383,8 @@ fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
     } else {
         y
     }
+}
+
+fn greeting(name: &str) -> String {
+    format!("Hello {}!", name)
 }
