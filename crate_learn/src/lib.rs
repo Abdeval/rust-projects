@@ -8,3 +8,4 @@
 pub mod addition;
 pub mod front_of_house;
 pub mod multiplication;
+pub mod multiple_clone;
