@@ -326,8 +326,7 @@ fn gives_ownership() -> String {
 }
 
 fn calculate_length(s: String) -> (String, usize) {
-    let length = s.len(); // len() returns the length of a String
-    (s, length)
+    (s, s.len())
 }
 
 // ! mutable references and borrowing
